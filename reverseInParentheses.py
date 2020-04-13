@@ -14,3 +14,9 @@ def reverseInParentheses(inputString):
     #(bar(baz))  = [0, 4], [8, 9]   => [4, 0], [8, 9] resolve
     
     #(bar)baz(blim) = [0, 8], [4, 13]
+
+    #TENTAR UMA VARREDURA DO TIPO:
+        '''
+        se o próximo bracket for == (, indice = i
+        se o próximo bracket for == ), a palavra partindo de indice + i até i será invertida
+        '''
