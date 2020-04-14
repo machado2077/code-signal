@@ -1,6 +1,13 @@
 def matrixElementsSum(matrix):    
+    """Função que soma os elementos de uma matriz cujos elementos acima não são nulos.
+    
+    Arguments:
+        matrix {list} -- uma lista contendo outras listas que compõe as linhas da matriz
+    
+    Returns:
+        int or float -- soma de todos os elementos descrito
+    """
     soma = 0
-    #validade = True
     for linha in range(0, len(matrix)):
         for col in range(0, len(matrix[linha])):            
             validade = True
