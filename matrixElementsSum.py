@@ -7,18 +7,6 @@ def matrixElementsSum(matrix):
             for i in range(0, linha):                                
                 if matrix[i][col] == 0:               
                     validade = False
-            if validade == True:
-                print('\n', matrix[linha][col])
-                soma += matrix[linha][col]
-        #validade = True        
+            if validade == True:                
+                soma += matrix[linha][col]        
     return soma
-
-m = [
-    [0,1,1,2], 
-    [0,5,0,0], 
-    [2,0,3,3]
- ]
-
-r = matrixElementsSum(m)
-print()
-print(r)
