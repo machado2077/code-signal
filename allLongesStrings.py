@@ -14,7 +14,7 @@ def allLongestStrings(inputArray):
     strings = [item for item in inputArray if len(item) == max(tam)]
     return strings
 
-#----------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
 import unittest
 
 class allLongestStringsTest(unittest.TestCase):
